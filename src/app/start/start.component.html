@@ -1,0 +1,6 @@
+<p>
+  <span *ngFor="let star of stars"
+        class="glyphicon glyphicon-star"
+        [class.glyphicon-star-empty]="star"></span><!--[ngClass]="{'glyphicon-star-empty':!star}" -->
+  <span>{{ rating }} </span>
+</p>
